@@ -2,8 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Unit Convertor</title>
   </head>
-  <body></body>
+  <body>
+    <div class="hero">
+      <h1>Metric/Imperial Convertor</h1>
+      <input type="number" placeholder="20" />
+      <button>Convert</button>
+    </div>
+    <div class="container">
+      <div class="conversion">
+        <h2>Length (Meter/Feet)</h2>
+        <p class="meters-result">0 meters = 0 feet | 0 feet = 0 meters</p>
+      </div>
+      <div class="conversion">
+      <h2>Volume (Liters/Gallons)</h2>
+      <p class="liters-result">0 liters = 0 gallons | 0 gallons = 0 liters</p>
+    </div>
+    <div class="conversion">
+      <h2>Mass (Kilograms/Pounds)</h2>
+      <p class="kilograms-result">0 kilograms = 0 pounds | 0 pounds = 0 kilograms</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
