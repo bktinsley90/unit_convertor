@@ -42,6 +42,9 @@ input[type='number'] {
   border-radius: 10px;
   outline: none;
   transition: all 0.2s ease-in-out;
+  /* Inherit the drop shadow and fix Chrome text opacity */
+  text-shadow: inherit;
+  -webkit-text-fill-color: #ffffff;
 }
 
 input[type='number']::-webkit-outer-spin-button,
